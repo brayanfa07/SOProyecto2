@@ -3,16 +3,16 @@ Documentacion
 
 
 
-Tabla de Contenidos
-=
-
-[Introducción](#idIntroducción)
+# Tabla de Contenidos
 
 
-Introducción {#id}
-=
+[Introducción][#titulo1]
 
-Descripción del problema {#id2}
-==
+
+# Introducción <a name="titulo1"></a>
+
+
+# Descripción del problema
+
 
 # 
