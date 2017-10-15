@@ -14,13 +14,13 @@ Documentacion
 
 4. [Descripción detallada y explicación de los componentes principales del programa](#descripción-detallada-y-explicación-de-los-componentes-principales-del-programa)
 
-4. 1.  [Mecanismo de acceso a archivos y directorios](#mecanismo-de-acceso-a-archivos-y-directorios)
+_[Mecanismo de acceso a archivos y directorios](#mecanismo-de-acceso-a-archivos-y-directorios)
 
-4. 2. [Estructura de la tabla de asignación de espacio](#estructura-de-la-tabla-de-asignación-de-espacio)
+_[Estructura de la tabla de asignación de espacio](#estructura-de-la-tabla-de-asignación-de-espacio)
 
-4. 3. [Estrategia de administración de bloques libres](#estrategia-de-administración-de-bloques-libres)
+_[Estrategia de administración de bloques libres](#estrategia-de-administración-de-bloques-libres)
 
-4. 4. [Procedimiento de desfragmentación del archivo (opcional)](#procedimiento-de-desfragmentación-del-archivo-opcional)
+_[Procedimiento de desfragmentación del archivo (opcional)](#procedimiento-de-desfragmentación-del-archivo-opcional)
 
 5. [Análisis de resultados de pruebas](#análisis-de-resultados-de-pruebas)
 
