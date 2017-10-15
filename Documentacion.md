@@ -6,10 +6,10 @@ Documentacion
 # Tabla de Contenidos
 
 
-[Introducción][#titulo1]
+[Introducción](#Introducción)
 
 
-# Introducción <a name="titulo1"></a>
+# Introducción
 
 
 # Descripción del problema
