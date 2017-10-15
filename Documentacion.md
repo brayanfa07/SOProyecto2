@@ -6,10 +6,10 @@ Documentacion
 Tabla de Contenidos
 =
 
-[Introducción](#id1Introducción)
+[Introducción](#idIntroducción)
 
 
-Introducción {#id1}
+Introducción {#id}
 =
 
 Descripción del problema {#id2}
