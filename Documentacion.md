@@ -22,9 +22,9 @@ Documentacion
 
 [Procedimiento de desfragmentación del archivo (opcional)](#procedimiento-de-desfragmentación-del-archivo-(opcional))
 
-< [Análisis de resultados de pruebas](#análisis-de-resultados-de-pruebas)
+> [Análisis de resultados de pruebas](#análisis-de-resultados-de-pruebas)
 
-< [Conclusiones sobre rendimiento](#conclusiones-sobre-rendimiento)
+> [Conclusiones sobre rendimiento](#conclusiones-sobre-rendimiento)
 
 
 # Introducción
