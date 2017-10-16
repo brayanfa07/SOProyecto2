@@ -1,15 +1,16 @@
 
-# PROYECTO 2
+PROYECTO 2
 
 
-## GABRIEL RAMÍREZ RAMÍREZ (201020244)
-## BRAYAN FAJARDO ALVARADO (201157035)
+GABRIEL RAMÍREZ RAMÍREZ (201020244)
+
+BRAYAN FAJARDO ALVARADO (201157035)
 
 
 
 
 
-# Empacador de archivos TAR
+Empacador de archivos TAR
 
 
 
@@ -20,11 +21,17 @@ Prof. Ing. Armando Arce Orozco
 
 
 TEC
+
 TECNOLÓGICO DE COSTA RICA
+
 ESCUELA DE INGENIERÍA EN COMPUTACIÓN,
+
 IC6600 PRINCIPIOS DE SISTEMAS OPERATIVOS,
+
 GRUPO 02,
+
 CARTAGO
+
 II SEMESTRE 2017
 
 
@@ -194,11 +201,8 @@ A partir de esta definición, se establecen las siguientes pruebas que verifican
 
 | Prueba        | Resultado     | Comentarios   |
 | ------------- | ------------- | ------------- |
-| Muestra de contenido de archivos agregados al tar  | Implementación incompleto  | 
-Se implementa el método, pero no se logra hacer la llamada directamente desde el main. |
-| Muestra de espacios vacíos en el tar  | Implementación incompleto  | 
-Se implementa el método, pero no se logra hacer la llamada directamente desde el main.
-|
+| Muestra de contenido de archivos agregados al tar  | Implementación incompleto  | Se implementa el método, pero no se logra hacer la llamada directamente desde el main. |
+| Muestra de espacios vacíos en el tar  | Implementación incompleto  | Se implementa el método, pero no se logra hacer la llamada directamente desde el main.|
 | Se muestra la información de los datos editados | Implementación incompleto | Se implementa el método, pero no se logra hacer la llamada directamente desde el main.|
 | Se muestra el dump en pantalla después de crear el tar con archivos| Implementación incompleto | Se implementa el método, pero no se logra hacer la llamada directamente desde el main.|
 | Se muestra el dump en pantalla después de crear el tar con archivos| Implementación incompleto | Se implementa el método, pero no se logra hacer la llamada directamente desde el main. | 
