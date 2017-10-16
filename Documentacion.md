@@ -17,7 +17,7 @@ Empacador de archivos TAR
 Prof. Ing. Armando Arce Orozco
 
 
-![Alt](/https://fotos.subefotos.com/513ff90b04afc1f7e14f93270de61a19o.png "TEC")
+![](https://fotos.subefotos.com/513ff90b04afc1f7e14f93270de61a19o.png "TEC")
 
 
 TEC
