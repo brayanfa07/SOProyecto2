@@ -219,7 +219,7 @@ A partir de esta definición, se establecen las siguientes pruebas que verifican
 | Se muestra el dump en pantalla después de agregar directorios del tar | Implementación incompleto | Se implementa el método, pero no se logra hacer la llamada directamente desde el main.|
 
 
-# Análisis de Pruebas
+# Análisis de resultados de pruebas
 
 En este punto se describirá y analizará cada una de las pruebas realizadas a cada unas de las funciones que debe realizar el sistema.
 Las pruebas a realizar se describirán a como sigue en una tabla, mencionando el nombre de la prueba, los resultados obtenidos y comentarios acerca del resultado de la prueba, entre otros puntos por comentar.
