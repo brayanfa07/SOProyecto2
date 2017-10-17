@@ -252,3 +252,7 @@ memoria que quizás no estén disponibles o sean más complejas en lenguajes de 
 2. Durante la investigación, se descubrió que el formato tar en variante y que existen más de una estructura válida que debe de seguir el encabezado de los archivos para poder ser mostrados correctamente por el sistema operativo.
 
 3. A pesar de que el programa no cumple con todas las especificaciones pedidas, se considera que tiene un buen manejo de memoria con respecto a la estructura interna del tar.
+
+# Referencias Bibliográficas
+
+
