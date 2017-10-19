@@ -91,7 +91,7 @@ int writeTableInformation(int fd, const char * files[], int total){
         memset(startPosition,0,10);
 
         write(fd,files[i],strlen(files[i]));
-        printf("LEn size%d\n",strlen(files[i]));
+        printf("LEn size%zu\n",strlen(files[i]));
         for (int j=0;j<=(256-strlen(files[i]));j++){
             write(fd,"\0",1);
         }
@@ -493,14 +493,14 @@ void deleteFiles(struct tar ** archive, int fd, const char * files[],int totalFi
 }
 
 // Get name of a directory [Its necessary use argv[]]
-int getNameDirectory(char fileName){
+char* getNameDirectory(char* fileName){
     char buf[PATH_MAX];
-    puts(realpath(fileName, buf));
-    return 0;
+    char* nameDirectory = realpath(fileName, buf);
+    return nameDirectory;
 }
 
 //Get the files inside of a directory
-int getFileNames(char oneFile){
+int getFileNames(char* oneFile){
 	DIR *direction;
 	struct dirent *ent;
 	if ((direction = opendir (getNameDirectory(oneFile))) != NULL) {
