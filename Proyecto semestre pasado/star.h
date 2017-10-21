@@ -73,6 +73,9 @@ int writeTableInformation(int fd, const char * files[], int total){
     int start = 278 * total;
     int oldSize = 0;
 
+    printf("===========> Display table information \n");
+
+
     for (int i =0;i<total;i++){
 
         char size[12];
@@ -191,6 +194,8 @@ int readZero(char * buf, size_t size){
 
 //Create an archive and create files inside it.
 int writeFile(int fd, struct  tar ** archive, int totalFiles,const char * files[],int start){
+
+    printf("===========> Inserting into the tar file...\n");
     struct tar ** actualTar = archive;
 
     char buf[512];

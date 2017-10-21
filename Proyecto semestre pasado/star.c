@@ -17,13 +17,13 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <limits.h>
-
-
 #include "star.h"
 
+
+//Comands to insert in a main query: star <options> <outFile> <file1> <file2> ... <fileN>
 int main(int argc, char *argv[]){
 	struct tar  * archive;
-	int fd = open("nuevo.tar",O_WRONLY | O_TRUNC | O_CREAT, S_IRUSR | S_IWUSR);
+	int fd;
 		
 	if (argc == 1){
         printf("No se encontró comando a ejecutar\nc");
@@ -35,11 +35,11 @@ int main(int argc, char *argv[]){
 
 
     if (strcmp(command,"-c")==0){
-        printf("Creando archivo tar...\n");
-           const char * filename = argv[2];
-           const char ** files = (const char **) &argv[3];
+        printf("=======> Creando archivo tar ...\n");
+        const char * filename = argv[2];
+        const char ** files = (const char **) &argv[3];
+
 		int fd = open(filename,O_WRONLY | O_TRUNC | O_CREAT, S_IRUSR | S_IWUSR);
-	    
 
 		int start = writeTableInformation(fd,files,argc-3);
 		writeFile(fd,&archive,argc-3,files,start);
