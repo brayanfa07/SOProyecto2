@@ -7,3 +7,4 @@
 4. Ejemplo Estructura archivos: [Link1](http://www.c4learn.com/c-programming/c-file-structure-and-file-pointer/) y [Link2](https://stackoverflow.com/questions/19486747/extract-archived-file-in-c-programming)
 
 5. Github TAR: [Link](https://github.com/calccrypto/tar)
+6. [http://www.geeksforgeeks.org/sprintf-in-c/](http://www.geeksforgeeks.org/sprintf-in-c/)

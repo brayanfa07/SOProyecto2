@@ -144,14 +144,18 @@ unsigned int calculate_checksum(struct tar * entry){
 
 //Insert data in the archive
 int  insertData(struct tar * actualTar, const char * file){
+
+    printf("===========> Inserting data into the file tar \n");
     struct stat stFile;
     if (lstat(file,&stFile)){
         printf("PROBLEMAS\n");
         return -1;
     }
     
+
     strncpy(actualTar -> completeName, file, 100);
     strncpy(actualTar -> name, file, 100);
+    printf("======> Inserting the file %s\n", actualTar->name);
     sprintf(actualTar -> mode, "%07o", stFile.st_mode & 0777);
     sprintf(actualTar -> uid, "%07o", stFile.st_uid);
     sprintf(actualTar -> gid, "%07o", stFile.st_gid);
